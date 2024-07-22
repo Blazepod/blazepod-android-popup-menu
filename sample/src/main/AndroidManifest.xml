@@ -12,7 +12,8 @@
         android:theme="@style/AppTheme.Light"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
 
-        <activity android:name=".SampleActivity">
+        <activity android:name=".SampleActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

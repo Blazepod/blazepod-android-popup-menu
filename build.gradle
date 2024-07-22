@@ -23,6 +23,10 @@ buildscript {
 
 apply plugin: 'org.kordamp.gradle.testing'
 
+ext {
+    compileSdkVersion = 34
+}
+
 allprojects {
     repositories {
         google()
